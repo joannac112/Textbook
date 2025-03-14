@@ -6,5 +6,7 @@ public class Main{
         System.out.println(bio2019.getBookInfo());
         System.out.println(bio2019.canSubstituteFor(bio2015));
         System.out.println(bio2015.canSubstituteFor(bio2019));
+        Textbook math = new Textbook ("Calculus", 45.25, 1);
+        System.out.println(bio2015.canSubstituteFor(math));
     }
 }
